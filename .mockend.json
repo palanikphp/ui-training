@@ -20,7 +20,7 @@
     },
     "length": { "int": { "min": 100, "max": 200 } },
     "releasedOn": {
-      "date": {
+      "dateTime": {
         "min": "2010-01-01",
         "max": "2022-04-31"
       }
