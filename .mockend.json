@@ -5,6 +5,6 @@
   "Movie": {
     "title": { "string": {} },
 
-    "rating": { "int": { "min": 0, "max": 10 } }
+    "rating": { "int": [{ "min": 0, "max": 10 }] }
   }
 }
