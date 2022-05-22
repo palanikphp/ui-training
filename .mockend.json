@@ -1,5 +1,72 @@
 {
   "User": {
     "title": { "string": {} }
-  }
-}
+  },
+  "Movie": [
+  {
+    "title": "RRR",
+    "director": { "name": "ram rao", "lastMovie": "Robot", "country": "India" },
+    "category": ["action", "comedy", "Romance"],
+    "length": 140,
+    "rating": [3, 4, 4.5, 3.9],
+    "language": ["Kannada", "Tamil", "Hindi", "Malayalam", "Telugu"]
+  },
+  {
+    "title": "Bhaubali",
+    "director": { "name": "Rajamouli", "lastMovie": "Rocky", "country": "India" },
+    "category": ["action", "History", "Romance"],
+    "length": 160,
+    "rating": [3, 3, 4.5, 3.9],
+    "language": ["Kannada", "Tamil", "Hindi", "Malayalam", "Telugu"]
+  },
+  {
+    "title": "Enthiran",
+    "director": { "name": "Sankar", "lastMovie": "Mudulvan", "country": "India" },
+    "category": ["action", "politics", "Romance"],
+    "length": 160,
+    "rating": [3, 3, 4.5, 3.9],
+    "language": ["Kannada", "Tamil", "Telugu"],
+  },
+  {
+    "title": "aBC",
+    "director": { "country": "india",  "fullName": "XYZ" },
+    "category": ["action", "comedy", "horror"],
+    "rating": [8, 6, 7],
+    "length": 70,
+    "language": ["tamil", "english", "hindi"],
+  },
+  {
+    "title": "ABCD",
+    "director": { "country": "india",  "fullName": "XYZ" },
+    "category": ["action", "comedy", "horror"],
+    "rating": [8, 6, 7],
+    "length": 70,
+    "language": ["tamil", "english", "hindi"],
+  },
+  ,
+  {
+    "title": "ABCDE",
+    "director": { "country": "india",  "fullName": "XYZ" },
+    "category": ["action", "comedy", "horror"],
+    "rating": [8, 6, 7],
+    "length": 70,
+    "language": ["tamil", "english", "hindi"],
+  },
+  {
+    "title": "XYZ",
+    "director": { "country": "india",  "fullName": "ABC" },
+    "category": ["action", "horror"],
+    "rating": [8, 6, 9],
+    "length": 75,
+    "language": ["english", "hindi"],
+  },
+  {
+    "title": "pQR",
+    "director": { "country": "United state",  "fullName": "name 1" },
+    "category": ["action", "horror", "love"],
+    "rating": [5, 6, 7, 9],
+    "length": 120,
+    "language": ["english", "tamil"],
+  },
+ 
+  ]
