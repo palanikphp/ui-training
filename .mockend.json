@@ -1,10 +1,29 @@
 {
-  "User": {
-    "title": { "string": {} }
-  },
-  "Movie": {
-    "title": { "string": {} },
-
-    "rating": { "int": [{ "min": 0, "max": 10 }] }
+  "Movies": {
+    "thumbnail": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+    },
+    "title": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
+      }
+    },
+    "description": {
+      "loremParagraphs": {
+        "minLength": 10,
+        "maxLength": 100
+      }
+    },
+    "genre": {
+      "string": ["comedy", "emotional", "horror", "action", "thriller"]
+    },
+    "length": { "int": { "min": 100, "max": 200 } },
+    "releasedOn": {
+      "date": {
+        "min": "2010-01-01",
+        "max": "2022-04-31"
+      }
+    }
   }
 }
