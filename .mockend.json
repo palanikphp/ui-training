@@ -1,7 +1,7 @@
 {
   "Movie": {
     "thumbnail": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/100/100"
     },
     "title": {
       "loremWords": {
@@ -18,7 +18,13 @@
     "genre": {
       "string": ["comedy", "emotional", "horror", "action", "thriller"]
     },
+    "director": {
+      "string": ["abc", "xyz", "pqr", "lmn", "aaa", "bbb"]
+    },
     "length": { "int": { "min": 100, "max": 200 } },
+    "language": {
+      "string": ["Kannada", "Tamil", "Hindi", "Malayalam", "Telugu", "English"]
+    },
     "releasedOn": {
       "dateTime": {
         "min": "2010-01-01T00:00:00Z",
